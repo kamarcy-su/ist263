@@ -1,0 +1,162 @@
+
+html, body {
+    font-family: 'Raleway', sans-serif;
+}
+.col {
+    flex: 1;
+}
+.col-3 {
+    flex: 3;
+}
+.row {
+    display: flex;
+}
+
+
+
+/* NAVIGATION */
+nav {
+    background-color: #F8f9fa; 
+    position: sticky;
+    margin: 0;
+    padding: 0;
+    top: 0;
+    height: 7em;
+}
+.navlist {
+    list-style-type: none;
+    margin: 2em;
+    float: right;
+    display: inline-flex;
+    overflow: hidden;
+}
+.logoimage {
+    display: inline-flex;
+    margin: 1.5em;
+    height: 4em;
+}
+.link {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a:hover {
+    background-color: #152B5B;
+    color: white;
+}
+
+/* ELECTION PAGE */
+.headerimage {
+    position: relative;
+    text-align: center;
+    color: white;
+} 
+
+
+
+.explainer {
+    position: absolute;
+    text-align: justify;
+    top: 8px;
+    right: 16px;
+    margin-left: 37em;
+    margin-top: 6em;
+    margin-right: 2em;
+    font-size: 20px;
+    color: white;
+}
+.explainer2 {
+    position: absolute;
+    top: 8px;
+    right: 16px;
+    font-size: 40px;
+    margin-right: 2.5em;
+    margin-top: 1.5em;
+    font-size: 40px;
+    color: white;
+}
+.box {
+    background-color: #152B5B;
+    padding: 1em;
+    text-align: center;
+    color: white;
+}
+.asidelinks {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.list {
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    padding: 1em;
+    color: black
+}
+.timeline {
+    background-color: #152B5B;
+    color: white;
+    text-align: center;
+    padding: 1em;
+}
+.centeredtimeline {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+}
+
+/* DEMOCRATS */
+.row.candidates {
+    background-color: #F8f9fa; 
+    margin: 1em;
+    border: solid #152B5B;
+}
+.centeredcandidate  {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 100%;
+    margin-top: 4em;   
+}
+.source {
+    text-decoration: none;
+    color: black;
+}
+.readmore {
+    text-decoration: none;
+    display: block;
+    background-color: #152B5B;
+    color: white;
+    text-align: center;
+    margin-left: 30%;
+    margin-right: 30%;
+    padding-top: .5em;
+    padding-bottom: .5em;
+    border-radius: 15px;
+}
+
+/* BERNIE */
+.bernie {
+    position: absolute;
+    top: 8px;
+    left: 16px;
+    font-size: 40px;
+    margin-left: 2.5em;
+    margin-top: 1.5em;
+}
+.bernieh3 {
+    background-color: #152B5B;
+    color: white;
+    padding: .5em;
+    text-align: center;
+}
+
+/* FOOTER */
+footer {
+    background-color: #152B5B;
+    color: white;
+}
+
